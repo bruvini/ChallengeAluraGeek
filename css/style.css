@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+@import url(/css/cabecalho.css);
+@import url(/css/banner.css);
+
+
+:root{
+    --cor-principal: #464646;
+    --cor-secundaria: #FFFFFF;
+    --cor-links: #2A7AE4;
+    --fundo-conteudo: #E5E5E5;
+    --fundo-cabecalho: #FFFFFF;
+    --fundo-contato: #EAF2FD;
+    --fundo-botao: #2A7AE4;
+    --fundo-botao-ativo: #15519e;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--cor-principal);
+
+}
