@@ -1,0 +1,13 @@
+.rodape {
+    padding: 32px;
+    text-align: center;
+}
+
+.texto-rodape {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.link-dev{
+    color: var(--cor-principal);
+}
