@@ -30,6 +30,10 @@
     margin-bottom: 8px;
 }
 
+.tablet {
+    display: none;
+}
+
 .ult {
     margin-bottom: 16px;
 }
@@ -52,4 +56,22 @@
     font-weight: 700;
     font-size: 16px;
     margin: 8px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .tablet {
+        display: block;
+    }
+
+    .celular{
+        display: none;
+    }
+
+    .produtos-amostra{
+        margin-bottom: 22px;
+    }
+
+    .ult{
+        margin-bottom: 12;
+    }
 }
