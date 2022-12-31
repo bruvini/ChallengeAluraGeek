@@ -67,11 +67,29 @@
         display: none;
     }
 
-    .produtos-amostra{
-        margin-bottom: 22px;
+    .ult{
+        margin-bottom: 12;
+    }
+
+    .computador{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .computador{
+        display: block;
+    }
+
+    .produtos-secao{
+        padding: 64px 162px 0;
+    }
+
+    .produto{
+        margin-right: 0;
     }
 
     .ult{
-        margin-bottom: 12;
+        padding-bottom: 32px;
     }
 }
