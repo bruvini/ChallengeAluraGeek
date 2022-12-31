@@ -17,4 +17,31 @@
     .bt-enviar-form{
         margin-top: 16px;
     }
+
+    .input-senha {
+        padding: 16px;
+    }
+    
+    .input-email {
+        margin-bottom: 16px;
+        padding: 16px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .login{
+        padding: 45px 247px 73px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .login{
+        width: 432;
+        padding: 92px 509px;
+    }
+
+    .input-form{
+        width: 432px;
+        padding: 4px;
+    }
 }
