@@ -15,7 +15,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .rodape {
-        padding: 32px 590px;
+    .rodape{
+        width: 1200px;
     }
 }

@@ -73,6 +73,7 @@
         display: grid;
         grid-template-columns: 50% 50%;
         padding: 32px;
+        width: 768px;
     }
 
     .contato-links {
@@ -98,6 +99,7 @@
         display: flex;
         padding: 64px 152px;
         justify-content: space-between;
+        width: 1200px;
     }
 
     .contato-links {
