@@ -8,6 +8,7 @@
 @import url(/css/login.css);
 @import url(/css/descricao.css);
 @import url(/css/botao.css);
+@import url(/css/produtos.css);
 
 
 
@@ -31,7 +32,7 @@ body{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #2A7AE4;
 }
 
 input{
