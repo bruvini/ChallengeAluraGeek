@@ -19,3 +19,69 @@
     width: 133px;
     text-align: center;
 }
+
+
+@media screen and (min-width: 768px) {
+    .lupa2 {
+        display: none;
+    }
+
+    .cabecalho {
+        padding: 16px 32px;
+    }
+
+    .logo_pesquisa{
+        display: flex;
+        align-items: center;
+    }
+
+    .cabecalho_pesquisa {
+        display: flex;
+        background-color: #F5F5F5;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        justify-content: space-between;
+        width: 272px;
+        height: 40px;
+        border-radius: 30px;
+        margin-left: 32px;
+    }
+
+    .cabecalho__caixadepesquisa {
+        border: none;
+        background-color: #F5F5F5;
+        width: 208px;
+    }
+
+    .cabecalho__caixadepesquisa::placeholder {
+        font-weight: 400;
+        font-size: 14px;
+        color: #A2A2A2;
+    }
+
+    .cabecalho_botao_login {
+        width: 166px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        padding: 32px 0px;
+        width: 1136px;
+        margin: 0 152px;
+    }
+
+    .cabecalho_logo {
+        width: 176px;
+        height: 50px;
+    }
+
+    .cabecalho_pesquisa {
+        width: 393px;
+    }
+
+    .cabecalho_botao_login {
+        width: 182px;
+    }
+}
