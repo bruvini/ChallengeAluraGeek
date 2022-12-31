@@ -1,99 +1,102 @@
-.conteudo {
-    background-color: var(--fundo-conteudo);
-    padding: 16px 16px 0;
+@media screen and (min-width: 360px) {
+    .conteudo {
+        background-color: var(--fundo-conteudo);
+        padding: 16px 16px 0;
+    }
+
+    .produtos-secao {
+        margin-bottom: 8px;
+    }
+
+    .produtos-secao-texto {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+
+    .produtos-titulo-secao {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .produtos-link-secao,
+    .produto-link {
+        color: var(--cor-links);
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .produto {
+        margin-bottom: 8px;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .computador {
+        display: none;
+    }
+
+    .ult {
+        margin-bottom: 16px;
+    }
+
+    .produtos-amostra {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img-produto {
+        width: 156px;
+        height: 174px;
+    }
+
+    .titulo-produto {
+        margin-top: 8px;
+    }
+
+    .preco-produto {
+        font-weight: 700;
+        font-size: 16px;
+        margin: 8px 0;
+    }
 }
 
-.produtos-secao {
-    margin-bottom: 8px;
-}
-
-.produtos-secao-texto {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 16px;
-    align-items: center;
-}
-
-.produtos-titulo-secao {
-    font-weight: 700;
-    font-size: 22px;
-}
-
-.produtos-link-secao,
-.produto-link {
-    color: var(--cor-links);
-    font-weight: 700;
-    font-size: 14px;
-}
-
-.produto {
-    margin-bottom: 8px;
-}
-
-.tablet {
-    display: none;
-}
-
-.computador{
-    display: none;
-}
-
-.ult {
-    margin-bottom: 16px;
-}
-
-.produtos-amostra {
-    display: flex;
-    justify-content: space-between;
-}
-
-.img-produto {
-    width: 156px;
-    height: 174px;
-}
-
-.titulo-produto {
-    margin-top: 8px;
-}
-
-.preco-produto {
-    font-weight: 700;
-    font-size: 16px;
-    margin: 8px 0;
-}
 
 @media screen and (min-width: 768px) {
     .tablet {
         display: block;
     }
 
-    .celular{
+    .celular {
         display: none;
     }
 
-    .ult{
+    .ult {
         margin-bottom: 12;
     }
 
-    .computador{
+    .computador {
         display: none;
     }
 }
 
-@media screen and (min-width: 1440px){
-    .computador{
+@media screen and (min-width: 1440px) {
+    .computador {
         display: block;
     }
 
-    .produtos-secao{
+    .produtos-secao {
         padding: 64px 162px 0;
     }
 
-    .produto{
+    .produto {
         margin-right: 0;
     }
 
-    .ult{
+    .ult {
         padding-bottom: 32px;
     }
 }
