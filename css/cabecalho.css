@@ -1,0 +1,21 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.cabecalho_logo {
+    width: 100px;
+    height: 28px;
+}
+
+.cabecalho_pesquisa {
+    display: none;
+}
+
+.cabecalho_botao_login {
+    width: 133px;
+    text-align: center;
+}
