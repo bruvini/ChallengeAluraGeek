@@ -1,0 +1,68 @@
+.botao_adm {
+    padding: 12px 16px;
+    font-size: 12px;
+}
+
+.adicionar {
+    background-color: var(--fundo-conteudo);
+    padding: 16px;
+}
+
+.add {
+    width: auto;
+}
+
+.titulo_formulario_add {
+    font-weight: 700;
+    font-size: 22px;
+    color: #464646;
+    margin-bottom: 16px;
+}
+
+.bt_adicionar {
+    width: 328px;
+    height: 51px;
+}
+
+@media screen and (min-width: 768px) {
+    .adicionar {
+        padding: 32px;
+        width: auto;
+    }
+
+    .caixa_texto {
+        height: 56px;
+    }
+
+    .rotulo_add {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .lista_selecao {
+        padding-top: 4px;
+        height: 20px;
+    }
+
+    .input_add {
+        font-size: 16px;
+    }
+
+    .bt_adicionar{
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .adicionar{
+        padding: 64px 440px;
+    }
+
+    .input_add{
+        height: 56px;
+    }
+
+    .bt_adicionar{
+        width: 559px;
+    }
+}
