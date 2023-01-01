@@ -1,0 +1,62 @@
+.cabecalho_botao_login{
+    display: none;
+}
+
+.login {
+    text-align: center;
+    padding: 97px 40px 76px 45px;
+    background-color: var(--fundo-conteudo);
+}
+
+.contato_formulario{
+    width: auto;
+}
+
+.titulo_formulario {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.caixa_texto {
+    text-align: left;
+    padding: 8px 12px;
+}
+
+.bt_logar  {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 16px;
+    width: 109px;
+}
+
+@media screen and (min-width: 768px) {
+    .login {
+        padding: 45px 247px 61px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .login {
+        padding: 92px 509px;
+    }
+    
+    .titulo_formulario {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .rotulo_formulario {
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .entrada_formulario{
+        padding: 6px;
+    }
+
+    .bt_logar{
+        width: 423px;
+    }
+}
