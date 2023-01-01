@@ -1,0 +1,93 @@
+.secao_editar {
+    padding: 32px;
+}
+
+.edicao {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titulo_edicao {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.add_prod_bt {
+    width: 120px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 16px;
+}
+
+.imagem {
+    width: 140px;
+    height: 174px;
+    background-image: url(/img/star-wars.png);
+    background-repeat: no-repeat;
+}
+
+.icones_acao {
+    display: flex;
+    width: 64px;
+    height: 24px;
+    padding: 8px 8px 142px 68px;
+}
+
+.lixeira {
+    margin-right: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .secao_editar {
+        padding: 39px 32px 32px;
+    }
+
+    .edicao {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titulo_edicao {
+        margin: 0;
+    }
+
+    .imagem {
+        width: 164px;
+    }
+
+    .icones_acao {
+        padding: 8px 8px 142px 92px;
+    }
+
+    .add_prod_bt {
+        width: 130px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .secao_editar{
+        padding: 64px 155px;
+    }
+    
+    .titulo_edicao {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    .add_prod_bt{
+        padding: 16px;
+    }
+
+    .imagem{
+        width: 176px;
+    }
+
+    .icones_acao {
+        padding: 11px 11px 147px 107px;
+    }
+}
