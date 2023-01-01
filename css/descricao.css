@@ -1,0 +1,84 @@
+.geral {
+    background-color: var(--fundo-conteudo);
+    padding: 16px;
+}
+
+.cabecalho_botao_login {
+    display: none;
+}
+
+.img_prod.baixo {
+    display: none;
+}
+
+.img_prod.cima {
+    width: 360px;
+    height: 192px;
+    object-fit: cover;
+}
+
+.produto_titulo.desc {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.produto_desc {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.conteudo.similares {
+    padding: 0;
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .img_prod.baixo {
+        display: block;
+        width: 254px;
+        height: 157px;
+        margin-right: 16px;
+    }
+
+    .img_prod.cima {
+        display: none;
+    }
+
+    .geral {
+        padding: 32px;
+    }
+
+    .all_prod {
+        display: flex;
+    }
+
+    .produto_infos {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .geral {
+        padding: 64px 152px;
+    }
+
+    .img_prod.baixo {
+        width: 560px;
+        height: 403px;
+    }
+
+    .produto_titulo.desc {
+        font-weight: 500;
+        font-size: 52px;
+    }
+
+    .produto_infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .all_prod{
+        margin-bottom: 64px;
+    }
+}
