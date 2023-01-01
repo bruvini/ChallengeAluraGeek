@@ -4,11 +4,11 @@
     background-color: var(--fundo-conteudo);
 }
 
-.contato_formulario{
+.form__login{
     width: auto;
 }
 
-.titulo_formulario {
+.titulo_formulario_login {
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 16px;
@@ -38,7 +38,7 @@
         padding: 92px 509px;
     }
     
-    .titulo_formulario {
+    .titulo_formulario_login {
         font-size: 18px;
         margin-bottom: 24px;
     }

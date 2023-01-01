@@ -35,7 +35,7 @@
     padding: 8px 12px;
     margin-bottom: 16px;
     border-bottom: 1px solid #C8C8C8;
-    ;
+    width: auto;
 }
 
 .rotulo_formulario {
@@ -86,6 +86,10 @@
     .ultimo_link {
         margin-bottom: 0;
     }
+
+    .caixa_texto {
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -103,11 +107,15 @@
         height: 50px;
     }
 
-    .contato_links{
+    .contato_links {
         margin-right: 112px;
     }
 
-    .contato_formulario{
+    .contato_formulario {
         width: 560px;
+    }
+
+    .caixa_texto {
+        width: auto;
     }
 }
