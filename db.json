@@ -1,0 +1,20 @@
+{
+  "produtos": [
+    {
+      "url": "www.google.com",
+      "categoria": "Diversos",
+      "id": 1,
+      "nome": "Camiseta",
+      "preco": "60,00",
+      "descricao": "camiseta branca"
+    }
+  ],
+
+  "usuarios": [
+    {
+      "email": "bruvini.silva12@gmail.com",
+      "senha": "12345",
+      "tipo": "admin"
+    }
+  ]
+}
