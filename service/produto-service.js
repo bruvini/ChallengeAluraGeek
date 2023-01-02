@@ -4,16 +4,14 @@ const blocoProdutoConsole = document.querySelector('[data-console]')
 const blocoProdutoStarWars = document.querySelector('[data-starwars]')
 
 const criaProduto = (url, nome, preco) => {
-    const novoProduto = document.createElement('div')
+    const novoProduto = document.createElement('div.produto')
     const conteudo =
         `
-        <div class="produto">
     <img src="${url}" alt="" class="produto_imagem">
     <div class="produto_infos">
         <h2 class="produto_titulo">${nome}</h2>
         <h2 class="produto_preco">R$${preco}</h2>
         <a href="" class="produto_link">Ver produto</a>
-    </div>
     </div>
     `
     novoProduto.innerHTML = conteudo
