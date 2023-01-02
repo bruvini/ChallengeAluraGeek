@@ -1,12 +1,30 @@
 {
   "produtos": [
     {
-      "url": "www.google.com",
+      "url": "https://cf.shopee.com.br/file/0d192ee715903e39c920c4c0cadae4a1",
       "categoria": "Diversos",
       "id": 1,
-      "nome": "Camiseta",
-      "preco": "60,00",
-      "descricao": "camiseta branca"
+      "nome": "Luminaria mini mushroom",
+      "preco": "149,90",
+      "descricao": "Linda Luminaria Perfeita para Aquele Que é Um Verdadeiro Fã de Super Mario!"
+    },
+
+    {
+      "url": "https://images-americanas.b2w.io/produtos/4705887617/imagens/boneco-star-wars-darth-vader-b3952-hasbro-15cm/4705887617_1_large.jpg",
+      "categoria": "Star Wars",
+      "id": 2,
+      "nome": "Boneco star wars darth vader",
+      "preco": "79,99",
+      "descricao": "Recrie os momentos favoritos de aventura e diversão do universo Star Wars com esta figura de escala de 6 polegadas, ou imagine novas histórias de perigo e emoção!Inclui figura."
+    },
+
+    {
+      "url": "https://cf.shopee.com.br/file/eb4f7b9e0c9e6c816e36967980114b6b",
+      "categoria": "Consoles",
+      "id": 3,
+      "nome": "Polystation Completo",
+      "preco": "139,90",
+      "descricao": "Console com jogos na memória"
     }
   ],
 
