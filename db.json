@@ -8,7 +8,6 @@
       "preco": "149,90",
       "descricao": "Linda Luminaria Perfeita para Aquele Que é Um Verdadeiro Fã de Super Mario!"
     },
-
     {
       "url": "https://images-americanas.b2w.io/produtos/4705887617/imagens/boneco-star-wars-darth-vader-b3952-hasbro-15cm/4705887617_1_large.jpg",
       "categoria": "Star Wars",
@@ -17,7 +16,6 @@
       "preco": "79,99",
       "descricao": "Recrie os momentos favoritos de aventura e diversão do universo Star Wars com esta figura de escala de 6 polegadas, ou imagine novas histórias de perigo e emoção!Inclui figura."
     },
-
     {
       "url": "https://cf.shopee.com.br/file/eb4f7b9e0c9e6c816e36967980114b6b",
       "categoria": "Consoles",
@@ -25,9 +23,14 @@
       "nome": "Polystation Completo",
       "preco": "139,90",
       "descricao": "Console com jogos na memória"
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
     }
   ],
-
   "usuarios": [
     {
       "email": "bruvini.silva12@gmail.com",

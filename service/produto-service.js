@@ -33,5 +33,39 @@ http.onload = () => {
     });
 }
 
+const addProduto = (url, categoria, nome, preco, descricao) => {
+    return fetch('http://localhost:3000/produtos', {
+        method: 'POST', 
+        headers: {
+            'Content-Type' : 'aplication/json'
+        }, body: JSON.stringify({
+            url: url,
+            categoria: categoria,
+            id: id,
+            nome: nome,
+            preco: preco,
+            descricao: descricao
+        })
+    })
+    .then(resposta => {
+        return resposta.body
+    })
+}
+
+const formulario = document.querySelector('[data-formulario]')
+formulario.addEventListener('submit', (evento) => {
+    evento.preventDefault()
+    const urlProd = evento.target.querySelector('[data-url]').value
+    const catProd = evento.target.querySelector('[data-categoria]').value
+    const nomeProd = evento.target.querySelector('[data-nome]').value
+    const precoProd = evento.target.querySelector('[data-preco]').value
+    const descricaoProd = evento.target.querySelector('[data-descricao]').value
+
+    addProduto(urlProd, catProd, nomeProd, precoProd, descricaoProd)
+    .then(() => {
+        window.location.href = "./editarProdutos.html"
+    })
+})
+
 
 

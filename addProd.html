@@ -36,14 +36,14 @@
     <section class="adicionar">
         <div class="contato_formulario add">
             <h2 class="titulo_formulario_add">Adicionar novo produto</h2>
-            <form action="#" method="get" class="formulario">
+            <form class="formulario" data-formulario>
                 <div class="caixa_texto">
                     <label for="url" class="rotulo_formulario rotulo_add">URL da imagem</label>
-                    <input type="url" name="url" id="" class="entrada_formulario input_add">
+                    <input type="url" name="url" id="" class="entrada_formulario input_add" data-url>
                 </div>
                 <div class="caixa_texto">
                     <label for="categorias" class="rotulo_formulario rotulo_add">Categoria</label>
-                    <select name="categorias" id="" class="entrada_formulario input_add lista_selecao">
+                    <select name="categorias" id="" class="entrada_formulario input_add lista_selecao" data-categoria>
                         <option value="">Selecione</option>
                         <option value="S">Star Wars</option>
                         <option value="C">Consoles</option>
@@ -52,15 +52,15 @@
                 </div>
                 <div class="caixa_texto">
                     <label for="nome" class="rotulo_formulario rotulo_add">Nome do produto</label>
-                    <input type="text" name="nome" id="" class="entrada_formulario input_add">
+                    <input type="text" name="nome" id="" class="entrada_formulario input_add" data-nome>
                 </div>
                 <div class="caixa_texto">
                     <label for="preco" class="rotulo_formulario rotulo_add">Preço do produto</label>
-                    <input type="number" name="preco" id="" class="entrada_formulario input_add">
+                    <input type="number" name="preco" id="" class="entrada_formulario input_add" data-preco>
                 </div>
                 <div class="caixa_texto mensagem">
-                    <label for="mensagem" class="rotulo_formulario rotulo_add rotulo_mensagem">Descrição do produto</label>
-                    <input type="text" name="mensagem" id="" class="entrada_formulario input_add">
+                    <label for="descricao" class="rotulo_formulario rotulo_add rotulo_mensagem">Descrição do produto</label>
+                    <input type="text" name="descricao" id="" class="entrada_formulario input_add" data-descricao>
                 </div>
                 <button type="submit" class="bt_enviar bt_adicionar botao_secundario">Adicionar produto</button>
             </form>
@@ -101,6 +101,8 @@
         <h2 class="rodape_linha1">Desenvolvido por Bruno Vinícius</h2>
         <h2 class="rodape_linha2">2022</h2>
     </footer>
+
+    <script src="/service/produto-service.js"></script>
 </body>
 
 </html>
