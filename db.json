@@ -1,46 +1,31 @@
 {
   "produtos": [
     {
-      "url": "https://cf.shopee.com.br/file/0d192ee715903e39c920c4c0cadae4a1",
-      "categoria": "Diversos",
-      "id": 1,
-      "nome": "Luminaria mini mushroom",
-      "preco": "149,90",
-      "descricao": "Linda Luminaria Perfeita para Aquele Que é Um Verdadeiro Fã de Super Mario!"
-    },
-    {
-      "url": "https://images-americanas.b2w.io/produtos/4705887617/imagens/boneco-star-wars-darth-vader-b3952-hasbro-15cm/4705887617_1_large.jpg",
-      "categoria": "Star Wars",
-      "id": 2,
-      "nome": "Boneco star wars darth vader",
-      "preco": "79,99",
-      "descricao": "Recrie os momentos favoritos de aventura e diversão do universo Star Wars com esta figura de escala de 6 polegadas, ou imagine novas histórias de perigo e emoção!Inclui figura."
-    },
-    {
-      "url": "https://cf.shopee.com.br/file/eb4f7b9e0c9e6c816e36967980114b6b",
-      "categoria": "Consoles",
-      "id": 3,
-      "nome": "Polystation Completo",
-      "preco": "139,90",
-      "descricao": "Console com jogos na memória"
-    },
-    {
-      "url": "https://instagram.com/stories/arquitetura_do.corpo/2963613910138746396?utm_source=ig_story_item_share&igshid=MDJmNzVkMjY=",
-      "categoria": "S",
-      "nome": "Iphone 8 plus",
-      "preco": "777",
-      "descricao": "BetaHCG",
-      "id": 4
-    },
-    {
-      "url": "https://www.topgadget.com.br/wp-content/uploads/2021/05/calculadora-calculando-contas-matematica.jpg",
+      "url": "https://cliquezoom.com/wp-content/uploads/2022/11/Designsemnome_49_6f1c7ec3-23ff-491b-9739-3edca36ad270-768x768.png",
       "categoria": "D",
-      "nome": "asdasd",
-      "preco": "2131",
-      "descricao": "Ginecologista",
-      "id": 5
+      "nome": "Cachorro de Pelúcia Realista",
+      "preco": "145",
+      "descricao": "TÓTÓ, é o melhor bicho de estimação que uma pessoa poderia ter, além de ser lindo e fofo também é igualzinho a um filhote de verdade!  Pense nos benefícios que o TÓTÓ trará a você. Por exemplo, cuidar de um filhote sem custos nem sujeiras.",
+      "id": 1
+    },
+    {
+      "url": "https://cliquezoom.com/wp-content/uploads/2022/11/Seef3bc014197415f8d75120257e2e0e0B-768x768.jpg",
+      "categoria": "S",
+      "nome": "Mini Ferro de Passar Roupa Portátil – VaporMax",
+      "preco": "125",
+      "descricao": "Com o Mini Ferro você tem roupas lisinhas e macias em poucos minutos!",
+      "id": 2
+    },
+    {
+      "url": "https://cliquezoom.com/wp-content/uploads/2022/11/Seef3bc014197415f8d75120257e2e0e0B-768x768.jpg",
+      "categoria": "C",
+      "nome": "Mini Ferro de Passar Roupa Portátil – VaporMax",
+      "preco": "125",
+      "descricao": "Com o Mini Ferro você tem roupas lisinhas e macias em poucos minutos!",
+      "id": 3
     }
   ],
+
   "usuarios": [
     {
       "email": "bruvini.silva12@gmail.com",

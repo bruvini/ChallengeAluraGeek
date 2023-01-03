@@ -4,7 +4,7 @@ const blocoProdutoConsole = document.querySelector('[data-console]')
 const blocoProdutoStarWars = document.querySelector('[data-starwars]')
 const blocoProdutoGeral = document.querySelector('[data-listaProdutos]')
 
-const criaProduto = (nome, preco) => {
+const criaProdutoGeral = (nome, preco) => {
     const novoProduto = document.createElement('div.produto')
     const conteudo =
         `
@@ -24,20 +24,45 @@ const criaProduto = (nome, preco) => {
     return novoProduto
 }
 
+const criaProdutoCategoria = (url, nome, preco) => {
+    const novoProduto2 = document.createElement('div.produto')
+    const conteudo2 =
+        `
+        <img src="${url}" alt="" class="produto_imagem">
+        <div class="produto_infos">
+            <h2 class="produto_titulo">${nome}</h2>
+            <h2 class="produto_preco">R$${preco}</h2>
+            <a href="#" class="produto_link">Ver produto</a>
+        </div>
+    `
+    novoProduto2.innerHTML = conteudo2
+    return novoProduto2
+}
+
 http.open('GET', 'http://localhost:3000/produtos')
 http.send()
+
 http.onload = () => {
     const data = JSON.parse(http.response)
     data.forEach(item => {
-        blocoProdutoGeral.appendChild(criaProduto(item.nome,item.preco))
+        if (item.categoria === "D") {
+            blocoProdutoDiversos.appendChild(criaProdutoCategoria(item.url, item.nome, item.preco));
+        } else if (item.categoria === "S") {
+            blocoProdutoStarWars.appendChild(criaProdutoCategoria(item.url, item.nome, item.preco))
+        } else {
+            blocoProdutoConsole.appendChild(criaProdutoCategoria(item.url, item.nome, item.preco))
+        };
     });
+
+    
 }
+
 
 const addProduto = (url, categoria, nome, preco, descricao) => {
     return fetch('http://localhost:3000/produtos', {
-        method: 'POST', 
+        method: 'POST',
         headers: {
-            'Content-type' : 'application/json'
+            'Content-type': 'application/json'
         }, body: JSON.stringify({
             url: url,
             categoria: categoria,
@@ -46,9 +71,9 @@ const addProduto = (url, categoria, nome, preco, descricao) => {
             descricao: descricao
         })
     })
-    .then(resposta => {
-        return resposta.body
-    })
+        .then(resposta => {
+            return resposta.body
+        })
 }
 
 const formulario = document.querySelector('[data-formulario]')
@@ -62,9 +87,9 @@ formulario.addEventListener("submit", (evento) => {
     const descricaoProd = evento.target.querySelector('[data-descricao]').value
 
     addProduto(urlProd, catProd, nomeProd, precoProd, descricaoProd)
-    .then(() => {
-        window.location.href = "./editarProdutos.html"
-    })
+        .then(() => {
+            window.location.href = "./editarProdutos.html"
+        })
 })
 
 
