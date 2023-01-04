@@ -39,12 +39,14 @@
 
 .produto_infos {
     margin-top: 8px;
+    width: 156px;
 }
 
 .produto_titulo {
     font-weight: 500;
     font-size: 14px;
     color: #464646;
+    white-space:pre-wrap;
 }
 
 .produto_preco {

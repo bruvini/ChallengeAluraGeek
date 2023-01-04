@@ -1,31 +1,62 @@
 {
   "produtos": [
     {
-      "url": "https://cliquezoom.com/wp-content/uploads/2022/11/Designsemnome_49_6f1c7ec3-23ff-491b-9739-3edca36ad270-768x768.png",
+      "nome": "Saboneteira de Parede de Acrílico com Ventosa",
+      "preco": "49,90",
+      "descricao": "Saboneteira de Parede de Acrílico Com Ventosa 12X10CM",
       "categoria": "D",
-      "nome": "Cachorro de Pelúcia Realista",
-      "preco": "145",
-      "descricao": "TÓTÓ, é o melhor bicho de estimação que uma pessoa poderia ter, além de ser lindo e fofo também é igualzinho a um filhote de verdade!  Pense nos benefícios que o TÓTÓ trará a você. Por exemplo, cuidar de um filhote sem custos nem sujeiras.",
+      "url": "https://a-static.mlcdn.com.br/800x560/saboneteira-de-parede-de-acrilico-com-ventosa-maxximo/tendadochinel0/56b632b2dc5711ec988c4201ac185078/23a6b43da347044c3a110d08fcd9280f.jpeg",
       "id": 1
     },
     {
-      "url": "https://cliquezoom.com/wp-content/uploads/2022/11/Seef3bc014197415f8d75120257e2e0e0B-768x768.jpg",
-      "categoria": "S",
-      "nome": "Mini Ferro de Passar Roupa Portátil – VaporMax",
-      "preco": "125",
-      "descricao": "Com o Mini Ferro você tem roupas lisinhas e macias em poucos minutos!",
+      "nome": "Produto 1",
+      "preco": "99,99",
+      "descricao": "Produto",
+      "categoria": "C",
+      "url": "https://www.kproaudio.com.br/produto/1006/imagem/4/0/item-sem-valor-comercial-venda-interna.jpg",
       "id": 2
     },
     {
-      "url": "https://cliquezoom.com/wp-content/uploads/2022/11/Seef3bc014197415f8d75120257e2e0e0B-768x768.jpg",
+      "nome": "Produto 2",
+      "preco": "98,99",
+      "descricao": "Produto",
       "categoria": "C",
-      "nome": "Mini Ferro de Passar Roupa Portátil – VaporMax",
-      "preco": "125",
-      "descricao": "Com o Mini Ferro você tem roupas lisinhas e macias em poucos minutos!",
+      "url": "https://www.kproaudio.com.br/produto/1006/imagem/4/0/item-sem-valor-comercial-venda-interna.jpg",
       "id": 3
+    },
+    {
+      "nome": "Produto 3",
+      "preco": "144,99",
+      "descricao": "Prod",
+      "categoria": "D",
+      "url": "https://www.kproaudio.com.br/produto/1006/imagem/4/0/item-sem-valor-comercial-venda-interna.jpg",
+      "id": 4
+    },
+    {
+      "nome": "Produto 4",
+      "preco": "744,14",
+      "descricao": "Produto",
+      "categoria": "D",
+      "url": "https://a-static.mlcdn.com.br/800x560/saboneteira-de-parede-de-acrilico-com-ventosa-maxximo/tendadochinel0/56b632b2dc5711ec988c4201ac185078/23a6b43da347044c3a110d08fcd9280f.jpeg",
+      "id": 5
+    },
+    {
+      "nome": "Cachorro de Pelúcia Realista",
+      "preco": "49,25",
+      "descricao": "Produto",
+      "categoria": "S",
+      "url": "https://www.kproaudio.com.br/produto/1006/imagem/4/0/item-sem-valor-comercial-venda-interna.jpg",
+      "id": 6
+    },
+    {
+      "nome": "Nicki Minaj",
+      "preco": "100,00",
+      "descricao": "Nicki Minaj rainha do RAP",
+      "categoria": "S",
+      "url": "https://www.ofuxico.com.br/wp-content/uploads/2022/07/nickiminajcabelovermelho.jpg",
+      "id": 7
     }
   ],
-
   "usuarios": [
     {
       "email": "bruvini.silva12@gmail.com",
